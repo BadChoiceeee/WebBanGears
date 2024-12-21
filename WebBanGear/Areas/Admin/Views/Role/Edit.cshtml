@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IdentityRole
+
+@{
+	ViewData["title"] = "Edit Role";
+}
+<h4>
+	Sửa quyền
+</h4>
+<div class="col-md-9">
+	<form asp-action="Edit" enctype="multipart/form-data">
+		<input type="hidden" asp-for="Id"/>
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+		<div class="form-group">
+			<label>Name</label>
+			<input asp-for="Name" class="form-control" />
+			<span asp-validation-for="Name" class="text-danger" />
+		</div>
+		<div>
+			<div class="form-group">
+				<h2><button class="btn btn-primary">Updaate</button></h2>
+				<a asp-action="Index" class="btn btn-primary">Back to List</a>
+			</div>
+		</div>
+	</form>
+</div>
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

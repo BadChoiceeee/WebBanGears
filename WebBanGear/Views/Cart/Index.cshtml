@@ -1,0 +1,215 @@
+﻿@using WebBanGear.Models.ViewModels
+@model CartItemViewModel
+
+<style>
+    #cart_items {
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .breadcrumb {
+        background-color: #f9f9f9;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .table-condensed {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .table-condensed th,
+        .table-condensed td {
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+    .cart_menu {
+        background-color: #f8f8f8;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .cart_item img {
+        max-width: 80px;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .cart_quantity_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart_quantity_input {
+        text-align: center;
+        width: 50px;
+        height: 35px;
+        margin: 0 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .cart_total_price {
+        font-size: 1.2em;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .btn-sm {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .btn-success, .btn-danger {
+        font-size: 0.9em;
+    }
+
+    .btn-primary {
+        font-size: 1em;
+        padding: 10px 15px;
+        background-color: #007bff;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+    h4 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    .cart_action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .cart_action .btn {
+            margin-bottom: 10px;
+        }
+
+    .cart_total_summary {
+        margin-top: 20px;
+    }
+
+        .cart_total_summary strong {
+            margin-right: 10px;
+        }
+
+    .d-flex.justify-content-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart_info td .btn-sm {
+        margin-right: 10px;
+    }
+</style>
+
+<section id="cart_items">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li><a href="/">Trang Chủ</a></li>
+                <li class="active">Giỏ Hàng</li>
+            </ol>
+        </div>
+        <div class="table-responsive cart_info">
+            <table class="table table-condensed">
+                <thead>
+                    <tr class="cart_menu">
+                        <td class="item">Sản phẩm</td>
+                        <td class="price">Giá</td>
+                        <td class="quantity">Số lượng</td>
+                        <td class="total">Tổng</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.CartItems.Count > 0)
+                    {
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <tr>
+                                <td class="cart_item">
+                                    <div class="d-flex align-items-center">
+                                        <img src="~/media/products/@item.Image" alt="@item.ProductName" />
+                                        <div class="ms-3">
+                                            <h5 class="mb-0">@item.ProductName</h5>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="cart_price">
+                                    <p>@String.Format("{0:0,0} VNĐ", item.Price)</p>
+                                </td>
+                                <td class="cart_quantity">
+                                    <div class="cart_quantity_button">
+                                        <a class="btn btn-success btn-sm me-2" asp-controller="Cart" asp-action="Increase" asp-route-id="@item.ProductId">+</a>
+                                        <input class="cart_quantity_input" type="text" value="@item.Quantity" readonly />
+                                        <a class="btn btn-danger btn-sm ms-2" asp-controller="Cart" asp-action="Decrease" asp-route-id="@item.ProductId">-</a>
+                                    </div>
+                                </td>
+                                <td class="cart_total">
+                                    <p class="cart_total_price">@String.Format("{0:0,0} VNĐ", item.Quantity * item.Price)</p>
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId">Xoá</a>
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td colspan="3" class="text-end"><strong>Tổng Tiền:</strong></td>
+                            <td colspan="2" class="text-start">
+                                <p class="cart_total_price">@String.Format("{0:0,0} ₫", Model.GrandTotal)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear">Xoá Hết</a>
+                            </td>
+                            <td></td>
+                            <td colspan="2">
+                                @if (User.Identity?.IsAuthenticated ?? false)
+                                {
+                                    <a class="btn btn-primary btn-sm" asp-controller="Checkout" asp-action="Checkout">Thanh Toán</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center"><h4>Giỏ Hàng Trống</h4></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

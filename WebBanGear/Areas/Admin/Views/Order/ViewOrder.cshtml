@@ -1,0 +1,145 @@
+﻿@model List<WebBanGear.Models.OrderDetails>
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<style>
+    .button-container {
+        display: flex;
+        flex-direction: column; /* Đặt các phần tử trong button-container theo chiều dọc */
+        align-items: flex-start; /* Căn chỉnh các phần tử về phía bên trái */
+        margin-top: 20px;
+    }
+
+    .button-container h1,
+    .button-container select {
+        margin-bottom: 10px; /* Khoảng cách giữa các phần tử */
+    }
+
+    .button-container h1 {
+        margin: 0;
+    }
+
+    .small-select {
+        width: auto; /* Điều chỉnh chiều rộng của dropdown */
+        font-size: 14px; /* Kích thước font */
+        padding: 5px 10px; /* Điều chỉnh khoảng cách bên trong */
+        height: 40px; /* Chiều cao của dropdown */
+    }
+</style>
+
+<h2>Chi tiết đơn hàng</h2>
+
+<div>
+    <table class="table dataTable" id="detail_order">
+        <thead>
+            <tr>
+                <th scope="col">Order Code</th>
+                <th scope="col">Full Name</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Coupon Code</th>
+                <th scope="col">Notes</th>
+                <th scope="col">Product Name</th> <!-- Cột tên sản phẩm -->
+                <th scope="col">Product Image</th> <!-- Cột hình ảnh sản phẩm -->
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>@item.OrderCode</td>
+                        <td>@item.FullName</td>
+                        <td>@item.PhoneNumber</td>
+                        <td>@item.CouponCode</td>
+                        <td>@item.Notes</td>
+                        <td>@item.Product.Name</td> <!-- Hiển thị tên sản phẩm -->
+                        <td>
+                        @if (!string.IsNullOrEmpty(item.Product.Image))
+                        {
+                                    <img src="~/media/products/@item.Product.Image" width="120">
+                        }
+                        else
+                        {
+                                    <span>No Image</span>
+                        }
+                        </td> <!-- Hiển thị hình ảnh sản phẩm -->
+                        <td>@item.Quantity</td>
+                        <td>@String.Format("{0:0,0} VNĐ", item.Price * item.Quantity)</td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+    <tr>
+                <td colspan="8" class="text-right">
+                    <div>
+                        <strong>Shipping Cost:</strong> @String.Format("{0:0,0} VNĐ", ViewBag.ShippingCost)
+                    </div>
+                    <div>
+                        <strong>Total:</strong> @String.Format("{0:0,0} VNĐ", Model.Sum(x => x.Price * x.Quantity))
+                    </div>
+                    <div>
+                        <strong>Total + Shipping Cost:</strong> @String.Format("{0:0,0} VNĐ", Model.Sum(x => x.Price * x.Quantity) + (ViewBag.ShippingCost ?? 0))
+                    </div>
+                </td>
+            </tr>
+</div>
+
+<div class="button-container">
+    <h4><a asp-action="Index" class="btn btn-primary">Back to List</a></h4>
+
+    @if (@ViewBag.Status != 3)
+    {
+            <select class="form-control select-update-order small-select">
+            @if (@ViewBag.Status == 0)
+            {
+                        <option disabled value="1">Đơn hàng mới</option>
+                        <option value="0">Đơn hàng đã xử lý</option>
+            }
+            else
+            {
+                        <option value="1">Đơn hàng mới</option>
+                        <option value="0">Đơn hàng đã xử lý</option>
+            }
+            </select>
+    }
+</div>
+
+@section Scripts {
+        <script>
+            new DataTable('#detail_order', {
+                layout: {
+                    topStart: {
+                        buttons: ['pdf', 'print']
+                    }
+                }
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('.select-update-order').change(function () {
+                    var status = $(this).val();
+                    var ordercode = '@Model.FirstOrDefault().OrderCode'; // Lấy orderCode từ Model
+
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("UpdateOrder")", // Gọi phương thức UpdateOrder
+                        data: { ordercode: ordercode, status: status },
+                        success: function (result) {
+                            if (result.success) {
+                                console.log("Cập nhật trạng thái thành công!");
+                            } else {
+                                console.log("Cập nhật thất bại: " + result.message);
+                            }
+                        },
+                        error: function () {
+                            console.log("Có lỗi xảy ra khi cập nhật trạng thái.");
+                        }
+                    });
+                });
+            });
+        </script>
+}

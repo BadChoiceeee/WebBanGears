@@ -1,0 +1,209 @@
+﻿@model IEnumerable<BrandModel>
+@{
+    ViewData["title"] = "Dashboard";
+}
+
+<h3 class="text-center mb-4">Trang thống kê</h3>
+
+<div class="row">
+    <!-- Thống kê Sản phẩm -->
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-info">
+            <div class="card-body">
+                <h5 class="card-title">Thống kê sản phẩm</h5>
+                <p class="card-text fs-4 fw-bold text-info">@ViewBag.CountProduct</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thống kê Đơn hàng -->
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-success">
+            <div class="card-body">
+                <h5 class="card-title">Thống kê đơn hàng</h5>
+                <p class="card-text fs-4 fw-bold text-success">@ViewBag.CountOrder</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thống kê Danh mục -->
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-warning">
+            <div class="card-body">
+                <h5 class="card-title">Thống kê Danh mục</h5>
+                <p class="card-text fs-4 fw-bold text-warning">@ViewBag.CountCategory</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thống kê Người dùng -->
+    <div class="col-md-3 mb-4">
+        <div class="card shadow-sm border-danger">
+            <div class="card-body">
+                <h5 class="card-title">Thống kê Người dùng</h5>
+                <p class="card-text fs-4 fw-bold text-danger">@ViewBag.CountUser</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h4>Lọc dữ liệu theo khoảng thời gian</h4>
+            <select class="filter-select form-select">
+                <option value="30">---Lọc dữ liệu---</option>
+                <option value="7">7 ngày trước</option>
+                <option value="30">Tháng qua</option>
+                <option value="90">3 Tháng trước</option>
+                <option value="365">1 năm trước</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h4>Lọc dữ liệu theo ngày</h4>
+            <label for="startDate">Ngày bắt đầu:</label>
+            <input type="date" id="startDate" class="form-control" />
+
+            <label for="endDate" class="mt-3">Ngày kết thúc:</label>
+            <input type="date" id="endDate" class="form-control" />
+
+            <button id="filterDate" class="btn btn-primary mt-3">Lọc</button>
+        </div>
+    </div>
+</div>
+
+<!-- Biểu đồ thống kê -->
+<div class="row">
+    <div class="col-md-12">
+        <h5 class="mb-4">Biểu đồ thống kê</h5>
+        <div id="myfirstchart" style="height: 400px;"></div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var ChartMorris = new Morris.Line({
+                element: 'myfirstchart',
+                data: [],
+                xkey: 'date', // Trục X
+                ykeys: ['sold', 'quantity', 'revenue', 'profit'],
+                labels: ['Số lượng bán ra', 'Đơn hàng', 'Doanh thu', 'Lợi nhuận'],
+                lineColors: ['#0b62a4', '#7a92a3', '#4da74d', '#ff6600'],
+                pointSize: 4,
+                hideHover: 'auto'
+            });
+
+            // Lấy dữ liệu ban đầu cho biểu đồ
+            $.ajax({
+                url: "@Url.Action("GetChartData", "Dashboard")",  // Đảm bảo cú pháp đúng
+                type: "POST",
+                dataType: "json",
+                success: function (data) {
+                    if (data) {
+                        ChartMorris.setData(data.map(function (item) {
+                            return {
+                                date: item.date,
+                                sold: item.sold,
+                                quantity: item.quantity,
+                                revenue: item.revenue,
+                                profit: item.profit
+                            };
+                        }));
+                    } else {
+                        console.warn("No data received for Morris chart update");
+                        ChartMorris.setData([]);
+                    }
+                },
+                error: function (error) {
+                    console.error("Error fetching data:", error);
+                }
+            });
+
+            // Lắng nghe sự kiện thay đổi từ dropdown (filter-select)
+            $('.filter-select').on('change', function () {
+                var days = $(this).val();  // Lấy số ngày từ giá trị dropdown
+                if (!days || days === "30") return;  // Nếu không chọn hoặc chọn "30", không xử lý
+
+                var endDate = new Date();
+                var startDate = new Date(endDate.getTime() - days * 24 * 60 * 60 * 1000);  // Tính ngày bắt đầu
+                console.log("Start Date: " + startDate.toISOString());
+                console.log("End Date: " + endDate.toISOString());
+
+                // Gửi yêu cầu Ajax với startDate và endDate
+                $.ajax({
+                    url: "@Url.Action("GetChartDataBySelect", "Dashboard")",  // Đảm bảo cú pháp đúng
+                    type: "POST",
+                    dataType: "json",
+                    data: {
+                        startDate: startDate.toISOString().split('T')[0],
+                        endDate: endDate.toISOString().split('T')[0]
+                    },
+                    success: function (data) {
+                        if (data) {
+                            ChartMorris.setData(data.map(function (item) {
+                                return {
+                                    date: item.date,
+                                    sold: item.sold,
+                                    quantity: item.quantity,
+                                    revenue: item.revenue,
+                                    profit: item.profit
+                                };
+                            }));
+                        } else {
+                            console.warn("No data received for Morris chart update");
+                            ChartMorris.setData([]);
+                        }
+                    },
+                    error: function (error) {
+                        console.error("Error fetching data:", error);
+                    }
+                });
+            });
+
+            // Lắng nghe sự kiện nhấn nút lọc để lấy dữ liệu theo ngày bắt đầu và kết thúc
+            $('#filterDate').on('click', function () {
+                var startDate = $('#startDate').val();  // Lấy ngày bắt đầu
+                var endDate = $('#endDate').val();      // Lấy ngày kết thúc
+
+                if (!startDate || !endDate) {
+                    alert("Vui lòng chọn cả ngày bắt đầu và ngày kết thúc.");
+                    return;
+                }
+
+                // Gửi yêu cầu Ajax với startDate và endDate
+                $.ajax({
+                    url: "@Url.Action("GetChartDataBySelect", "Dashboard")",  // Đảm bảo cú pháp đúng
+                    type: "POST",
+                    dataType: "json",
+                    data: {
+                        startDate: startDate,
+                        endDate: endDate
+                    },
+                    success: function (data) {
+                        if (data) {
+                            ChartMorris.setData(data.map(function (item) {
+                                return {
+                                    date: item.date,
+                                    sold: item.sold,
+                                    quantity: item.quantity,
+                                    revenue: item.revenue,
+                                    profit: item.profit
+                                };
+                            }));
+                        } else {
+                            console.warn("No data received for Morris chart update");
+                            ChartMorris.setData([]);
+                        }
+                    },
+                    error: function (error) {
+                        console.error("Error fetching data:", error);
+                    }
+                });
+            });
+        });
+    </script>
+}

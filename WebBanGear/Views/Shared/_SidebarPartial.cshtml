@@ -1,0 +1,30 @@
+﻿@{
+    var currenUrl = Url.ActionContext.HttpContext.Request.Path;
+}
+<div class="left-sidebar">
+    <h2>Thương hiệu</h2>
+    <div class="panel-group category-products" id="accordian">
+        <!-- brands_products -->
+        <vc:brands></vc:brands>
+    </div><!-- /brands_products -->
+
+    <h2>Lọc theo giá</h2>
+    <div class="panel-group category-products" id="filter-price">
+        <form asp-action="Index" asp-controller="Category">
+            <div class="filter-price mb-3">
+                <label for="amount">Price range:</label>
+                <input type="text" id="amount" readonly="" class="form-control" style="border:0; color:#f6931f; font-weight:bold;">
+            </div>
+
+            <div id="slider-range" class="mb-3"></div>
+
+            <button type="submit" name="locgia" data-current_url="@currenUrl" class="btn btn-danger btn-locgia w-100">Lọc giá</button>
+        </form>
+    </div><!-- /filter-price -->
+
+    <h2>Loại Sản phẩm</h2>
+    <div class="panel-group category-products" id="accordian">
+        <!-- category-products -->
+        <vc:categories></vc:categories>
+    </div><!-- /category-products -->
+</div><!-- /left-sidebar -->

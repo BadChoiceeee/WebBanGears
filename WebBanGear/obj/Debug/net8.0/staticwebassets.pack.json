@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanGear.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebBanGear.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\images\\G102.jpg",
+      "PackagePath": "staticwebassets\\images\\G102.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\images\\Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\images\\Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\logo\\bcb97f9b-210b-4a52-95c4-0808a2a45334_logo.png",
+      "PackagePath": "staticwebassets\\media\\logo\\bcb97f9b-210b-4a52-95c4-0808a2a45334_logo.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\logo\\bcf09cd8-8139-4b69-b693-ad48dbfd06c9_logo.png",
+      "PackagePath": "staticwebassets\\media\\logo\\bcf09cd8-8139-4b69-b693-ad48dbfd06c9_logo.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\logo\\bd6cf8ca-a280-4a73-8e77-f655e7a21a69_logo.png",
+      "PackagePath": "staticwebassets\\media\\logo\\bd6cf8ca-a280-4a73-8e77-f655e7a21a69_logo.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\0408fedf-346f-429c-9199-67720b781370_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0408fedf-346f-429c-9199-67720b781370_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\045dcdff-d6ab-458b-b87f-42eb52773757_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\045dcdff-d6ab-458b-b87f-42eb52773757_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\04a776fb-d447-45de-a95c-a4c233cd0859_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\04a776fb-d447-45de-a95c-a4c233cd0859_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\07db7202-47fb-443f-a5c1-1efa942a556d_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\07db7202-47fb-443f-a5c1-1efa942a556d_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\16898009-5d0d-4a14-adbc-f92ea2bab52c_gpro.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\16898009-5d0d-4a14-adbc-f92ea2bab52c_gpro.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\16b1821c-afb6-4f69-8582-847c09a7849a_gpro.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\16b1821c-afb6-4f69-8582-847c09a7849a_gpro.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\1948401f-6ded-4ad5-9057-df04f541572e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1948401f-6ded-4ad5-9057-df04f541572e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\1eec3eed-5146-43c7-a479-ec8e03e90400_thorn-1-467963.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1eec3eed-5146-43c7-a479-ec8e03e90400_thorn-1-467963.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\2d5c372e-53c0-4b6c-8606-812d01a82db2_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\2d5c372e-53c0-4b6c-8606-812d01a82db2_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\2f63fcda-1185-40d2-bcfa-a9418e84556e_g703-gallery-1.png",
+      "PackagePath": "staticwebassets\\media\\products\\2f63fcda-1185-40d2-bcfa-a9418e84556e_g703-gallery-1.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\3253ce2e-61fe-4679-bc64-82c87445b733_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3253ce2e-61fe-4679-bc64-82c87445b733_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\3299b2b7-b266-440d-a8cc-0487d7770305_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3299b2b7-b266-440d-a8cc-0487d7770305_X2hgamingmouse_medium_Black_9b7524fa-821a-41b4-b481-a2572ed45802-754468_large.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\32c5bf38-69b3-4643-8327-31458b7e733e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\32c5bf38-69b3-4643-8327-31458b7e733e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\3767796e-e349-40f9-bafa-cdf8fed8baf0_thorn-1-467963.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3767796e-e349-40f9-bafa-cdf8fed8baf0_thorn-1-467963.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\3c22b087-0c00-4d4f-ba7f-648c9cf65c87_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3c22b087-0c00-4d4f-ba7f-648c9cf65c87_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\3ed7cd93-9016-4625-8dc8-8901abbae8f9_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\3ed7cd93-9016-4625-8dc8-8901abbae8f9_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\44cedcd3-4f76-454d-a363-0b9c8d050f48_chu-t-khong-day-logitech-mx-master-3s-wireless-37779554533621.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\44cedcd3-4f76-454d-a363-0b9c8d050f48_chu-t-khong-day-logitech-mx-master-3s-wireless-37779554533621.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\464da882-c083-4477-9f37-7cb08ffdc333_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\464da882-c083-4477-9f37-7cb08ffdc333_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\4dc7c285-5865-48a7-9d9d-ed2f4747cb19_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4dc7c285-5865-48a7-9d9d-ed2f4747cb19_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\55190281-10f5-426c-aa66-230a0fdacba5_Chuột Pulsar Xlite Wireless V2 Black.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\55190281-10f5-426c-aa66-230a0fdacba5_Chuột Pulsar Xlite Wireless V2 Black.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\5b2da608-9ae7-48bb-b25f-baadc2d99696_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5b2da608-9ae7-48bb-b25f-baadc2d99696_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\5c93d61f-1440-4aaf-aabf-d76fa9decadd_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5c93d61f-1440-4aaf-aabf-d76fa9decadd_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\692368b4-449f-4122-a061-98447a6c4e33_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\692368b4-449f-4122-a061-98447a6c4e33_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\7cf3ff3a-190c-4d7d-bed5-57c36c592c00_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\7cf3ff3a-190c-4d7d-bed5-57c36c592c00_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\7ede577f-a35b-4921-a41d-5a1476c072d7_gpro.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\7ede577f-a35b-4921-a41d-5a1476c072d7_gpro.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\80ddfa9f-e65e-4539-a390-9976340c99d4_gpro.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\80ddfa9f-e65e-4539-a390-9976340c99d4_gpro.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\83360f5f-f2df-45ad-8889-b4761a1ed79e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\83360f5f-f2df-45ad-8889-b4761a1ed79e_ban-phim-co-khong-day-logitech-g-pro-x-tkl-lightspeed-tactile-9.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\84c88153-a9ef-4e14-b26e-385824707cc0_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\84c88153-a9ef-4e14-b26e-385824707cc0_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\85e218e8-c0bf-4b28-bab2-badd1eaebcb1_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\85e218e8-c0bf-4b28-bab2-badd1eaebcb1_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\8be2de22-4331-47e2-9b50-9e56f257723d_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8be2de22-4331-47e2-9b50-9e56f257723d_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\8c6ecf52-3704-4b95-af18-1a181a843845_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8c6ecf52-3704-4b95-af18-1a181a843845_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\9f132e48-da09-4440-8a2c-a5f07e3b1a44_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9f132e48-da09-4440-8a2c-a5f07e3b1a44_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\a4f50582-97c9-4e17-99ea-ac2156ae72a9_gpro.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a4f50582-97c9-4e17-99ea-ac2156ae72a9_gpro.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\a82876cd-3602-4e8c-b33b-2ec376b7fb41_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a82876cd-3602-4e8c-b33b-2ec376b7fb41_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\aa785964-f156-48bc-8372-d5d79c1148ca_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\aa785964-f156-48bc-8372-d5d79c1148ca_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\ae150c01-c3f8-4626-9a06-ebb8f6ab2831_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ae150c01-c3f8-4626-9a06-ebb8f6ab2831_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\b425265f-f593-4fe1-850a-fb10b1b48695_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b425265f-f593-4fe1-850a-fb10b1b48695_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\b7241bdf-a42a-482a-b0ac-c2d5f4871ee3_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b7241bdf-a42a-482a-b0ac-c2d5f4871ee3_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\b7f74b6e-89ed-4c48-b4c8-b9a5e86df313_Chuột Pulsar Xlite Wireless V2 Black.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b7f74b6e-89ed-4c48-b4c8-b9a5e86df313_Chuột Pulsar Xlite Wireless V2 Black.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\bff22518-8443-4aa7-aa23-5b99f8af8469_chu-t-khong-day-logitech-mx-master-3s-wireless-37779554533621.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\bff22518-8443-4aa7-aa23-5b99f8af8469_chu-t-khong-day-logitech-mx-master-3s-wireless-37779554533621.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\c220d21a-a761-4363-8408-8b4543b5de8b_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c220d21a-a761-4363-8408-8b4543b5de8b_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\c2308a39-4a71-4e35-8ca7-ef0eb73d1f00_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c2308a39-4a71-4e35-8ca7-ef0eb73d1f00_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\c5e76a8a-3362-4752-af8a-aaca7c5c9861_Chuột Pulsar Xlite Wireless V2 Black.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c5e76a8a-3362-4752-af8a-aaca7c5c9861_Chuột Pulsar Xlite Wireless V2 Black.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\cad99152-d81a-40da-9efb-cc158a3ea436_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\cad99152-d81a-40da-9efb-cc158a3ea436_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\cb21a2b2-164d-4537-92f7-1d15f186c08a_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\cb21a2b2-164d-4537-92f7-1d15f186c08a_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\cc2bf0d1-adf2-4246-bb04-c9e088e506a1_Chuột Pulsar Xlite Wireless V2 Black.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\cc2bf0d1-adf2-4246-bb04-c9e088e506a1_Chuột Pulsar Xlite Wireless V2 Black.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\d1c1a46a-0165-44fd-a282-a3e2df2f451d_Chuột Pulsar Xlite Wireless V2 Black.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d1c1a46a-0165-44fd-a282-a3e2df2f451d_Chuột Pulsar Xlite Wireless V2 Black.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\d8107687-43c9-4183-81a0-5f0863763712_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d8107687-43c9-4183-81a0-5f0863763712_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\de20809f-193d-4e7a-9912-224e7e083661_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\de20809f-193d-4e7a-9912-224e7e083661_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\e35d8dbf-e491-440c-ad37-77546329d722_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e35d8dbf-e491-440c-ad37-77546329d722_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\e88dae26-f835-4a78-92d1-46c1309bd492_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e88dae26-f835-4a78-92d1-46c1309bd492_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\ea941c53-2ac5-4486-acef-f273f27b7aea_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ea941c53-2ac5-4486-acef-f273f27b7aea_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\ecd83286-5933-4444-bb0e-f18b7bbd4faf_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ecd83286-5933-4444-bb0e-f18b7bbd4faf_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\ee84d3b0-c875-4534-8933-0d82c7f69aab_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ee84d3b0-c875-4534-8933-0d82c7f69aab_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f4346dc3-4ee8-4fa2-93cd-9e9e5ee51411_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f4346dc3-4ee8-4fa2-93cd-9e9e5ee51411_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f5298064-dcb5-4873-b24e-f1f02778d781_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f5298064-dcb5-4873-b24e-f1f02778d781_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f6605ba7-9e24-4f51-88d2-be403cf96ffa_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f6605ba7-9e24-4f51-88d2-be403cf96ffa_2_3a2bc0d6cd364beaa96df82a199b1ab9_master.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f6f90155-536e-4cd2-9eca-3f233db81df0_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f6f90155-536e-4cd2-9eca-3f233db81df0_gearvn-chuot-logitech-g502-x-plus-lightspeed-black-1_4ead4ccb696c49a3bb7e4a61d3c57864.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f72ef2d7-19e1-42a4-be1d-b4cfd2f716d5_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f72ef2d7-19e1-42a4-be1d-b4cfd2f716d5_78980_ban_di_chuot_pulsar_paracontrol_v2_pmp11xlr2_xlarge_red_1.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\f9879dd7-1a1d-47d1-8d52-0e9d5dfdb37d_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f9879dd7-1a1d-47d1-8d52-0e9d5dfdb37d_lift-gallery-off-white-1_6117a55232c945a4a0a070b64b1c8af8_d98215571a0b497c8fe0c4be54c699b4_1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\products\\fed7c5db-ae98-42fc-8fab-ee3339fd2799_Lamzu_Atlantis_Pro_Keyboard.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\fed7c5db-ae98-42fc-8fab-ee3339fd2799_Lamzu_Atlantis_Pro_Keyboard.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\15f281cd-8b2b-4aef-8493-d3b64bf4f527_Banner.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\15f281cd-8b2b-4aef-8493-d3b64bf4f527_Banner.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\5602328e-b4c6-4482-9da2-6e3e5dc43e73_hq720.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\5602328e-b4c6-4482-9da2-6e3e5dc43e73_hq720.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\63f56f83-f940-4128-8ddb-febf59283889_Pulsar Lazada _ Shopee Banner 04.png",
+      "PackagePath": "staticwebassets\\media\\sliders\\63f56f83-f940-4128-8ddb-febf59283889_Pulsar Lazada _ Shopee Banner 04.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\69e9bc7b-647d-4a92-a6f5-e0ec74ae4bc9_zowie.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\69e9bc7b-647d-4a92-a6f5-e0ec74ae4bc9_zowie.jpg"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\7e5f819c-fcfa-4b37-b25d-a63983170bd4_web-slider-man-hinh.png",
+      "PackagePath": "staticwebassets\\media\\sliders\\7e5f819c-fcfa-4b37-b25d-a63983170bd4_web-slider-man-hinh.png"
+    },
+    {
+      "Id": "D:\\Đồ án cơ sở\\WebBanGear\\WebBanGear\\wwwroot\\media\\sliders\\d2079f2c-d869-4f29-8208-d0fdd37879c2_slider_3.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\d2079f2c-d869-4f29-8208-d0fdd37879c2_slider_3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebBanGear.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebBanGear.props",
+      "PackagePath": "build\\WebBanGear.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanGear.props",
+      "PackagePath": "buildMultiTargeting\\WebBanGear.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebBanGear.props",
+      "PackagePath": "buildTransitive\\WebBanGear.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

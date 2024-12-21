@@ -1,0 +1,90 @@
+﻿@model ContactModel
+<style>
+  /* Cải thiện giao diện chung cho Contact Page */
+#contact-page {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fb-page {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.contact-map {
+    margin-top: 20px;
+}
+
+.map-container {
+    padding: 0;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-info h3 {
+    color: #007bff;
+}
+
+
+</style>
+<div id="contact-page" class="container py-5">
+    <div class="row">
+        <div class="col-sm-12 text-center mb-5">
+            <h2 class="title">Contact <strong>Us</strong></h2>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Cột duy nhất chứa cả FanPage và Thông tin liên hệ -->
+        <div class="col-md-12">
+            <!-- FanPage -->
+            <h3><strong>FanPage:</strong></h3>
+            <div class="fb-page" data-href="https://www.facebook.com/ctyphongcachxanh/" data-tabs="message" data-width="1100px" data-height="1000px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/ctyphongcachxanh/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/ctyphongcachxanh/">Phong Cách Xanh</a>
+                </blockquote>
+            </div>
+            <!-- Bản đồ -->
+            <h3><strong>Địa chỉ:</strong></h3>
+            <div id="gmap" class="contact-map mb-4">
+                <div class="map-container" style="max-width: 100%; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    @Html.Raw(Model.Map)
+                </div>
+            </div>
+            <!-- Thông tin liên hệ -->
+            <h3><strong>Thông tin liên hệ:</strong></h3>
+            <ul class="list-unstyled">
+                <li><strong>Name:</strong> @Model.Name</li>
+                <li><strong>Email:</strong> @Model.Email</li>
+                <li><strong>Phone:</strong> @Model.Phone</li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Register User";
+}
+
+<section id="signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="signup-form">
+                    <h2>New User Signup!</h2>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <form asp-action="Create" asp-controller="Account" method="post">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" asp-for="Username" class="form-control" required />
+                            <span asp-validation-for="Username" class="text-danger" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" asp-for="Email" class="form-control" required />
+                            <span asp-validation-for="Email" class="text-danger" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" asp-for="Password" class="form-control" required />
+                            <span asp-validation-for="Password" class="text-danger" />
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Create</button>
+                        </div>
+                    </form>
+                    <p>Đã có tải khoản ? <a asp-action="Login" asp-controller="Account">Đăng nhập ở đây </a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

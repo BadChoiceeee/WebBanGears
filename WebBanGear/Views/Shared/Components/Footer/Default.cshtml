@@ -1,0 +1,31 @@
+﻿@model ContactModel
+<div class="row">
+	<!-- Logo và mô tả công ty -->
+	<div class="col-sm-2">
+		<div class="companyinfo text-center">
+			<p>
+				<img src="~/media/logo/@Model.LogoImg" width="120" alt="Logo" class="img-fluid">
+			</p>
+			<p>@Html.Raw(Model.Description)</p>
+		</div>
+	</div>
+
+	<!-- Bản đồ -->
+	<div class="col-sm-7">
+		<div class="map-container" style="margin: 20px auto; text-align: center; max-width: 100%;">
+			<div style="border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); overflow: hidden;">
+				@Html.Raw(Model.Map)
+			</div>
+		</div>
+	</div>
+
+	<!-- Thông tin liên hệ -->
+	<div class="col-sm 6">
+		<div class="address" style="padding: 10px;">
+			<h5><b>Thông tin liên hệ:</b></h5>
+			<h5>@Model.Name</h5>
+			<h5>@Model.Email</h5>
+			<h5>@Model.Phone</h5>
+		</div>
+	</div>
+</div>

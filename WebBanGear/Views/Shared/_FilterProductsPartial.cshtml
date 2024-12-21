@@ -1,0 +1,20 @@
+﻿@{
+    var currenUrl = Url.ActionContext.HttpContext.Request.Path;
+}
+<div class="container">
+    <div class="row">
+         <!-- Cột Sắp xếp theo -->
+        <div class="col-md-4 mb-4">
+            <h5 class="text-primary">Sắp xếp theo</h5>
+            <!-- Thêm lớp form-control-sm để làm ô chọn nhỏ lại -->
+            <select class="form-control form-control-sm" id="sort_by" onchange="window.location=this.value;">
+                <option>-------</option>
+                <option value="@currenUrl?sort_by=price_increase">Giá tăng dần</option>
+                <option value="@currenUrl?sort_by=price_decrease">Giá giảm dần</option>
+                <option value="@currenUrl?sort_by=price_newest">Mới nhất</option>
+                <option value="@currenUrl?sort_by=price_oldest">Cũ nhất</option>
+            </select>
+        </div>
+
+    </div>
+</div>
